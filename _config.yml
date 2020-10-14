@@ -12,13 +12,13 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    :  # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Mystery Bots Studios"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title_separator          : "|"
+subtitle                 : "The Official website of Mystery Bots Studios."
 name                     : "Mystery Bots Studios"
 description              : "The Official website of Mystery Bots Studios. Visit to keep up to date on different projects and events we are creating"
 url                      : "https://mysterybots.com"
@@ -209,7 +209,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Pacific/Auckland
 
 
 # Plugins (previously gems:)
@@ -268,14 +268,19 @@ compress_html:
 
 # Defaults
 defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: post
     values:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
       share: true
       related: true
