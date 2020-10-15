@@ -17,7 +17,7 @@ main:
 
 archives:
   - title: "Archive"
-    url: "/archive/"
+    url: "/archives/"
   - title: "Tags"
     url: "/tags/"
   - title: "Collections"
