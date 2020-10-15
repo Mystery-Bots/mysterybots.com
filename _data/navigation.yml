@@ -2,6 +2,8 @@
 main:
   - title: "Blog"
     url: "/blog/"
+  - title: "Archives"
+    url: "/archives/"
   - title: "Among Us Bot"
     url: https://aub.mysterybots.com
   # - title: "About"
@@ -12,3 +14,11 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+archives:
+  - title: "Archive"
+    url: "/archive/"
+  - title: "Tags"
+    url: "/tags/"
+  - title: "Collections"
+    url: "/categories"
