@@ -1,5 +1,4 @@
 ---
-title: ""
 permlink: /
 ---
 # Mystery Bots Studios
