@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Blog"
+    url: "/blog/"
   - title: "Among Us Bot"
     url: https://aub.mysterybots.com
   # - title: "About"
