@@ -1,0 +1,28 @@
+<html>
+	<head>
+		{% include head.html %} 
+		{% include head/custom.html %}
+		<meta http-equiv="refresh" content="1;url={{ page.redirect }}"/>
+		<script type="text/javascript">
+			window.location.href = "{{ page.redirect }}"
+		</script>
+	</head>
+	<body class="layout--single">
+		{% include_cached skip-links.html %}
+		{% include_cached browser-upgrade.html %}
+		{% include_cached masthead.html %}
+		
+		<div class="initial-content" id="main" role="main">
+			If you are not redirected automatically, follow <a href="{{ page.redirect }}">this link</a>.
+		</div>
+
+		<div id="footer" class="page__footer">
+			<footer>
+                {% include footer/custom.html %} 
+                {% include_cached footer.html %}
+			</footer>
+        </div>
+        
+		{% include scripts.html %}
+	</body>
+</html>
