@@ -1,0 +1,11 @@
+Arreme: 
+  name: "Arreme"
+  bio: "Developer"
+  avatar: "/assets/images/profiles/Arreme.jpg"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/Arreme2000"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Arreme"
