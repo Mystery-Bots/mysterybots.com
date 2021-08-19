@@ -1,0 +1,56 @@
+---
+title: Contact Me
+permalink: /contact/
+---
+
+<script src="\assets\js\vendor\jquery\jquery-3.4.1.js"></script>
+<script type="text/javascript">
+	var submitted = false;
+</script>
+<script type="text/javascript">
+	$("#gform").on("submit", function (e) {
+		$("#gform *").fadeOut(2000);
+		$("#gform").prepend("Your submission has been processed...");
+	});
+</script>
+
+
+<form
+	name="gform"
+	id="gform"
+	enctype="text/plain"
+	action="https://docs.google.com/forms/d/e/1FAIpQLSeqyXyji9scfowkSUOQoMSIguMZXoPdjHM1ByFRuhv28ZsLrw/formResponse?"
+	target="hidden_iframe"
+	onsubmit="submitted=true;"
+>
+	Name:<br />
+	<input
+		required
+		type="text"
+		name="entry.329728174"
+		id="entry.329728174"
+	/><br />
+	Email:<br />
+	<input
+		required
+		type="email"
+		name="entry.1021094146"
+		id="entry.1021094146"
+	/><br />
+	Subject:<br />
+	<select required id="entry.1994354739" name="entry.1994354739" form="gform">
+		<option value="Custom Bot">Custom Bot</option>
+		<option value="Payments">Payments</option></select
+	><br />
+	Message:<br />
+	<input required type="text" name="entry.158443130" id="entry.158443130" />
+	<input type="submit" value="Submit" />
+</form>
+
+<iframe
+	name="hidden_iframe"
+	id="hidden_iframe"
+	style="display: none"
+	onload="if(submitted) {}"
+></iframe>
+
