@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Contact Me"
+    url: "/contact/"
   - title: "Blog"
     url: "/blog/"
   - title: "About"
@@ -8,14 +10,7 @@ main:
     url: "/archives/"
   - title: "Among Us Bot"
     url: https://aub.mysterybots.com
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  
 
 archives:
   - title: "Archive"
