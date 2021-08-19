@@ -14,7 +14,6 @@ permalink: /contact/
 	});
 </script>
 
-
 <form
 	name="gform"
 	id="gform"
@@ -23,27 +22,41 @@ permalink: /contact/
 	target="hidden_iframe"
 	onsubmit="submitted=true;"
 >
-	Name:<br />
+	<label>Name:</label>
 	<input
-		required
+		required=""
 		type="text"
 		name="entry.329728174"
 		id="entry.329728174"
-	/><br />
-	Email:<br />
+		data-com.bitwarden.browser.user-edited="yes"
+	/>
+	<label>Email:</label>
 	<input
-		required
+		required=""
 		type="email"
 		name="entry.1021094146"
 		id="entry.1021094146"
-	/><br />
-	Subject:<br />
-	<select required id="entry.1994354739" name="entry.1994354739" form="gform">
+		data-com.bitwarden.browser.user-edited="yes"
+	/>
+	<label>Subject:</label>
+	<select
+		required=""
+		id="entry.1994354739"
+		name="entry.1994354739"
+		form="gform"
+		style="background-color: #252a34"
+	>
 		<option value="Custom Bot">Custom Bot</option>
 		<option value="Payments">Payments</option></select
-	><br />
-	Message:<br />
-	<input required type="text" name="entry.158443130" id="entry.158443130" />
+	>
+	<label>Message:</label>
+	<input
+		required=""
+		type="text"
+		name="entry.158443130"
+		id="entry.158443130"
+		data-com.bitwarden.browser.user-edited="yes"
+	/>
 	<input type="submit" value="Submit" />
 </form>
 
@@ -53,4 +66,3 @@ permalink: /contact/
 	style="display: none"
 	onload="if(submitted) {}"
 ></iframe>
-
