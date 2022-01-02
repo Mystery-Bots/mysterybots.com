@@ -1,6 +1,6 @@
 ---
 title: "Discord"
-redirect: https://discord.gg/AD2a24y
+redirect: https://discord.gg/FZtS7X7Xft
 layout: redirect
 permalink: /discord/
 sitemap: false
