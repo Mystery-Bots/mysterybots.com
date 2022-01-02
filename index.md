@@ -8,7 +8,8 @@ Welcome to Mystery Bots Studios. The home of news and information about each of 
 ## Projects
 
 ### Mineclub Link
-Mineclub link is a AFK bot for [Mineclub](https://discord.gg/mineclub). You can download the project by clicking this [link](https://github.com/TheMysterys/Mineclub-Link). Also feel free to join the support server [here](/discord)
+Mineclub link is a AFK bot for [Mineclub](https://discord.gg/mineclub). You can download the project by clicking the button below. Also feel free to join the discord server for support.
+<br>[Visit the GitHub Repo](https://github.com/TheMysterys/Mineclub-Link){: .btn .btn--success}
 
 ### Among Us Bot
 ![image-left](/assets/images/frontpage/aub.jpg){: .align-left}
