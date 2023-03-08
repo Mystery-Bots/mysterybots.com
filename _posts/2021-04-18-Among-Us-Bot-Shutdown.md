@@ -10,7 +10,7 @@ Due to the fact that Among Us Bot was used in over 30 thousand Discord servers w
 
 To those who brought premium, thank you all so much. Your support allowed me to keep the bot going for a lot longer than I would have been able to. 
 
-To my staff team. You guys are amazing and stank you for the constant support in helping members with their problems and just allowing me to focus on work and my life.
+To my staff team. You guys are amazing and thank you for the constant support in helping members with their problems and just allowing me to focus on work and my life.
 
 ---
 
